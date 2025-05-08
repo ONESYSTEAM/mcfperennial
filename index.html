@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mill Creek Farm Perennials">
+    <meta name="keywords" content="Mill Creek Farm Perennials">
+    <meta name="author" content="OneSysteam">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playball&amp;subset=latin-ext">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/Flash.css">
+    <!-- JS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+
+    <title>Mill Creek Farm Perennials</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="banner-top">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides callbacks callbacks1" id="slider4">
+                        <li>
+                            <div class="w3layouts-banner-top">
+                                <div class="container">
+                                    <div class="agileits-banner-info">
+                                        <h3>Plants Wholesale Growers <span>Over 30 Years of Experience</span></h3>
+                                        <p>We specialize in perennials, shrubs, groundcovers, and ornamental grasses for the landscape industry, backed by decades of nursery production experience.</p>
+                                        <div class="w3-button">
+                                            <a href="about.html">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w3layouts-banner-top w3layouts-banner-top1">
+                                <div class="container">
+                                    <div class="agileits-banner-info">
+                                        <h3>Contract Grow Program <span>Supporting Your Landscape Projects</span></h3>
+                                        <p>We offer Grand Rapids and West Michigan contractors a contract grow program to ensure consistent plant availability tailored to your needs and timelines.</p>
+                                        <div class="w3-button">
+                                            <a href="contract-grow.html">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w3layouts-banner-top w3layouts-banner-top2">
+                                <div class="container">
+                                    <div class="agileits-banner-info">
+                                        <h3>Expanded Facilities and Inventory <span>Built for Growth</span></h3>
+                                        <p>We've added heated greenhouses and shrub cold frames to meet the growing demand for ground covers and more—ensuring quality and availability year-round.</p>
+                                        <div class="w3-button">
+                                            <a href="facilities.html">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+                <script src="js/responsiveslides.min.js"></script>
+                <script>
+                    $(function() {
+                        $("#slider4").responsiveSlides({
+                            auto: true,
+                            pager: true,
+                            nav: true,
+                            speed: 500,
+                            namespace: "callbacks",
+                            before: function() {
+                                $('.events').append("<li>before event fired.</li>");
+                            },
+                            after: function() {
+                                $('.events').append("<li>after event fired.</li>");
+                            }
+                        });
+        
+                    });
+                </script>
+            </div>
+        </div>
+        
+        <!-- Banner -->
+        <div class="banner">
+            <div class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="w3layouts-logo">
+                            <img src="images/logo-light.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="agileinfo-social-grids">
+                            <ul>
+                                <li><a href="https://www.facebook.com/mcfperennials" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="top-nav">
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a class="active list-border" href="index.html">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#plants">Plants</a></li>
+                                    <li><a href="#program">Program</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a class="list-border1" href="#footer">Contact</a></li>
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner -->
+        
+        <!-- About -->
+        <div id="about" class="about">
+            <div class="container">
+                <div class="w3-about-grids">
+                    <div class="col-md-12 w3l-about-left">
+                        <h2>About <span>Mill Creek Farm Perennials</span></h2>
+                        <h3>With over 30 years of experienced nursery production, we are able to offer our landscape contractors in Grand Rapids and nearby cities in West Michigan the opportunity to take part in our contract grow program.</h3>
+                        <p>Ground covers continue to prove to be some of our most popular inventories year after year. Because of it, we have increased our inventories and improved our nursery growing capabilities. We have also upgraded our facilities with the addition of two heated greenhouses on top of the four we already have. Two shrub cold frames were also built as part of the expansion plan bringing it to a total of seventeen.</p>
+                        <p>Whether you&rsquo;re a landscape contractor, a wholesale reseller or a garden store retailer, we would love to partner with you. We have a wide variety of selection to support your growing business needs.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        
+        <!-- Plants -->
+        <div id="plants" class="plants">
+            <div class="container">
+                <div class="agileits-plants-grids">
+                    <div class="col-md-4 agileinfo-plants-left">
+                        <h3>Featured <span>Plants</span></h3>
+                        <p>Explore our top selections of hardy perennials, ornamental grasses, and shrubs, perfect for professional landscapes.</p>
+                    </div>
+                    <div class="col-md-8 agileinfo-plants-right">
+                        <div class="col-md-6 w3-agileits-plants-grid">
+                            <img src="images/plant-1.jpg" style="width: 100%;" alt="Aralia (Sun King)">
+                            <h4>Aralia (Sun King)</h4>
+                            <p>Fast-growing perennial with lush tropical foliage. Thrives in partial shade.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid agile-plants1">
+                            <img src="images/plant-5.jpg" style="width: 100%;" alt="Schizachyrium (Little Bluestem)">
+                            <h4>Schizachyrium (Little Bluestem)</h4>
+                            <p>Native grass with blue summer foliage and rich burgundy fall color.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid">
+                            <img src="images/plant-2.jpg" style="width: 100%;" alt="Helleborus (Lenten Rose)">
+                            <h4>Helleborus (Lenten Rose)</h4>
+                            <p>Evergreen perennial valued for early spring blooms and dense foliage.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid">
+                            <img src="images/plant-6.jpg" style="width: 100%;" alt="Amsonia (Blue Star)">
+                            <h4>Amsonia (Blue Star)</h4>
+                            <p>Clump-forming native with starry blue flowers, great for woodland edges.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid">
+                            <img src="images/plant-3.jpg" style="width: 100%;" alt="Baptisia (Blue Indigo)">
+                            <h4>Baptisia (Blue Indigo)</h4>
+                            <p>Large, drought-tolerant perennial with showy late spring flowers.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid agile-plants1">
+                            <img src="images/plant-7.jpg" style="width: 100%;" alt="Echinacea (Coneflower)">
+                            <h4>Echinacea (Coneflower)</h4>
+                            <p>Colorful, drought-resistant perennials ideal for sunny gardens.</p>
+                        </div>
+                        <div class="col-md-6 w3-agileits-plants-grid">
+                            <img src="images/plant-4.jpg" style="width: 100%;" alt="Epimedium (Barrenwort)">
+                            <h4>Epimedium (Barrenwort)</h4>
+                            <p>Shade-tolerant groundcover with delicate early spring blooms.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- Plants -->
+        
+        <!-- Contact Grow Program -->
+        <div id="program" class="contact-grow-program">
+            <div class="container">
+                <div class="wthree-news-grids">
+                    <div class="col-md-12 agileinfo-services-left agile-news-left">
+                        <h3 style="margin-bottom: 20px;">Contract Grow Program <span>CGP</span></h3>
+                        <img src="images/winter.png" style="width: 100%;" alt="">
+                        <p>Launched in 2008, our Contract Grow Program has evolved exponentially through the years. It has been strategically implemented in response to the pressing need relayed by our partners in the industry to meet the increasing demand for guaranteed supplies of popular varieties of plants.</p>
+                        <p>When COVID-19 hit in 2019, it became more difficult to obtain inventories because of the availability of starter plants and finished products. During this time, our landscape contractors have relied on our expertise and resources to maximize opportunities by providing just in time inventories for their projects. In the process, not only our CGP ensures availability of supplies but it also saves our customers substantial amounts of money.</p>
+                        <p>For conversations on our CGP, please give us a call and schedule an appointment with us. We would love to hear from you.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Grow Program -->
+        
+        <!-- Team -->
+        <div id="team" class="team">
+            <div class="container">
+                <div class="wthree--grids">
+                    <div class="col-md-12 agileinfo-team-left">
+                        <h3>Our <span>Team</span></h3>
+                        <p>Our passionate staff have spent countless hours researching and evaluating the most resilient varieties of perennials and grass lines suited for our ever changing weather conditions. Collectively, our team of experts have more than fifty plus years of related experience handling nursery operations.  We are persistent with our efforts to making sure we are delivering quality service and products with our partners and stakeholders.   </p>
+                    </div>
+                    <div class="col-md-12 agileinfo-team-right">
+                        <div class="col-md-4">
+                            <img src="images/team-1.png" style="width: 100%;" alt="">
+                            <p>Roy Gingrich, <span>Owner/Founder</span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/team-3.png" style="width: 100%;" alt="">
+                            <p>Adam Schaafsma, <span>Production Manager</span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/team-4.png" style="width: 100%;" alt="">
+                            <p>Autumn Rose, <span>Nursery Manager</span></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team -->
+        
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="agile-footer-grids">
+                    <div class="col-md-12 w3-agile-footer-grid">
+                        <h3>MILL CREEK FARM Perennials <br> We Grow With You!</h3>
+                        <p>4221 Bud Drive NE, Comstock Park, MI 49321 <br> (616) 862-4331</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+
+    </main>
+
+    <script src="<?= assets('js/Flash.js') ?>"></script>
+    <script src="<?= assets('js/responsiveslides.min.js') ?>"></script>
+    <script src="<?= assets('js/SmoothScroll.min.js') ?>"></script>
+    <script src="<?= assets('js/move-top.js') ?>"></script>
+    <script src="<?= assets('js/easing.js') ?>"></script>
+
+    <script>
+        $(document).ready(function() {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+        });
+    </script>
+
+</body>
+
+</html>
